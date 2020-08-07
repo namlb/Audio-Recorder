@@ -30,7 +30,7 @@ public class HomeFragment extends Fragment {
     private String outputFile;
     public static final String SHARED_PREFS = "sharedPrefs";
     public static final String ORDER = "order";
-    public static final String ABSOLUTE_FOLDER = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Records";;
+    public static final String ABSOLUTE_FOLDER = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Records";
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
