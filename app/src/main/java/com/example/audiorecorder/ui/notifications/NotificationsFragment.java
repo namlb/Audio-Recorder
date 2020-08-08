@@ -59,7 +59,7 @@ public class NotificationsFragment extends Fragment {
                 PendingIntent pi = PendingIntent.getBroadcast(root.getContext(), 0, i, 0);
 
                 //setting the repeating alarm that will be fired every day
-                am.setRepeating(AlarmManager.RTC, calendar.getTimeInMillis(), AlarmManager.RTC, pi);
+                am.setRepeating(AlarmManager.RTC, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY, pi);
                 Toast.makeText(root.getContext(), "Alarm is set", Toast.LENGTH_SHORT).show();
             }
         });
