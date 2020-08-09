@@ -79,8 +79,8 @@ public class LoginActivity extends AppCompatActivity {
                 new Runnable() {
                     public void run() {
                         // On complete call either onLoginSuccess or onLoginFailed
-                        //onLoginSuccess();
-                        onLoginFailed();
+                        onLoginSuccess();
+                        //  onLoginFailed();
                         progressDialog.dismiss();
                     }
                 }, 3000);
